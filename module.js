@@ -20,9 +20,6 @@ const getUserData = (id)=> {
     })
 }
 
-getUserData('dsafas')
-    .then((data) => console.log(data))
-    .catch((e)=> console.log(e))
 
 export default getUserData
     
