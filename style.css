@@ -36,7 +36,6 @@ input {
 .result {
     display: flex;
     flex-wrap: wrap;
-    overflow: scroll;
     max-width: 700px;
     width: auto;
     background-color: aqua;
