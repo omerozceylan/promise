@@ -18,9 +18,5 @@ const getUserData = (id)=> {
     })
 }
 
-getUserData(4)
-    .then((user)=> console.log(user))
-    .catch((e)=> console.log(e))
-
-// fetch('https://jsonplaceholder.typicode.com/todos/1')
-// https://jsonplaceholder.typicode.com/posts?userId=1](
+export default getUserData
+    
